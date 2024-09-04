@@ -1,0 +1,342 @@
+/* Extra Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    /* header */
+    #header{
+        padding: 12px 0 50px;
+    }
+    .logo img{
+        width: 85%;
+        height: 85%;
+    }
+    .nt{
+        padding: 4px 5px; 
+    }
+    .nti{
+        width: 1.3em; 
+        height: 1.3em; 
+    }
+    .menu ul{
+        float: right;
+    }
+    .menu ul li{
+        padding: 10px 5px 0 0;
+    } 
+    .menu ul li a{
+        font-size: 20px;
+    }
+    /* banner */
+    #banner{
+        padding: 0 0 50px;
+    }
+    .c-ind{
+        bottom: -55px;
+    }
+    .c-ind [data-bs-target] {
+        width: 8px;
+        height: 8px;
+    }
+    .b-text{
+        padding: 0 0 10px;
+    }
+    .b-text h1{
+        font-size: 20px;
+    }
+    .b-text h2{
+        padding: 8px 0 8px;
+        font-size: 16px;
+    }
+    .b-text p{
+        line-height: 20px;
+        font-size: 15px;
+    }
+    .b-icon i{
+        padding-right: 15px;
+        font-size: 34px;
+    }
+    /* feature */
+    #feature{
+        padding: 60px 0 30px;
+    }
+    .f-top h1{
+        font-size: 22px;
+    }
+    .f-top p{
+        padding: 5px 0 35px;
+        font-size: 16px;
+        line-height: 20px;
+    } 
+    .box{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .box i{
+        font-size: 34px;
+    }
+    .box h2{
+        padding: 5px 0 0;
+        font-size: 18px;
+    }
+    .box p{
+        line-height: 19px;
+    }
+    /* input  */
+    #input{
+        padding: 60px 0 50px;
+    }
+    .c-margin{
+        margin-bottom: -10px;
+    }
+    #email{
+        padding: 10px 5px !important;
+    }
+    .c-btn{
+        height: 45.6px;
+    }
+    .i-icon{
+        padding-top: 30px;
+    }
+    .i-icon i{
+        margin-right: 20px;
+        font-size: 34px;
+    }
+    /* footer */
+    #footer{
+        padding-bottom: 20px;
+    }
+    .f-1{
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .f-2{
+        padding-bottom: 15px;
+    }
+    .f-2 p a, .f-2 p{
+        margin-bottom: 0;
+        text-align: center;
+    }
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {  
+    /* header */
+    #header{
+        padding: 20px 0 40px;
+    }
+    .menu ul{
+        float: right;
+    }
+    .menu ul li{
+        padding-top: 10px;
+    } 
+    .menu ul li a{
+        font-size: 20px;
+    }
+    /* banner */
+    #banner{
+        padding: 0 0 50px;
+    }
+    .c-ind{
+        bottom: -50px;
+    }
+    .c-ind [data-bs-target] {
+        width: 8px;
+        height: 8px;
+    }
+    .b-text{
+        padding: 0 0 10px;
+    }
+    .b-text h1{
+        font-size: 22px;
+    }
+    .b-text h2{
+        padding: 10px 0 10px;
+        font-size: 18px;
+    }
+    .b-text p{
+        line-height: 20px;
+        font-size: 15px;
+    }
+    .b-icon i{
+        padding-right: 15px;
+        font-size: 34px;
+    }
+    /* feature */
+    #feature{
+        padding: 60px 0 25px;
+    }
+    .f-top h1{
+        font-size: 25px;
+    }
+    .f-top p{
+        padding: 8px 0 40px;
+        font-size: 16px;
+    } 
+    .box{
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    .box i{
+        font-size: 34px;
+    }
+    .box h2{
+        padding: 5px 0 0;
+        font-size: 18px;
+    }
+    .box p{
+        line-height: 20px;
+    }
+    /* input  */
+    #input{
+        padding: 60px 0 50px;
+    }
+    #email{
+        padding: 9px 10px !important;
+    }
+    .c-btn{
+        height: 43.6px;
+    }
+    .i-icon{
+        padding-top: 30px;
+    }
+    .i-icon i{
+        margin-right: 25px;
+        font-size: 34px;
+    }
+    /* footer */
+    #footer{
+        padding-bottom: 25px;
+    }
+    .f-1{
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .f-2{
+        padding-bottom: 20px;
+    }
+    .f-2 p a, .f-2 p{
+        margin-bottom: 0;
+        text-align: center;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /* header */
+    #header{
+        padding: 20px 0;
+    }
+    .menu ul{
+        float: right;
+    }
+    .menu ul li{
+        padding-top: 10px;
+    }
+    /* banner */
+    #banner{
+        padding: 0 0 70px;
+    }
+    .c-ind{
+        bottom: -70px;
+    }
+    .c-ind [data-bs-target] {
+        width: 8px;
+        height: 8px;
+    }
+    .b-text{
+        padding: 15px 0 15px;
+    }
+    .b-text h1{
+        font-size: 28px;
+    }
+    .b-text h2{
+        padding: 15px 0 15px;
+        font-size: 18px;
+    }
+    .b-text p{
+        line-height: 20px;
+    }
+    .b-icon i{
+        padding-right: 25px;
+        font-size: 38px;
+    }
+    .b-img{
+        margin: 10px 40px 0;
+    }
+    /* feature */
+    #feature{
+        padding: 80px 0 30px;
+    }
+    .f-top h1{
+        font-size: 28px;
+    }
+    .f-top p{
+        padding: 8px 0 40px;
+        font-size: 18px;
+    } 
+    .box{
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .box i{
+        font-size: 38px;
+    }
+    .box h2{
+        font-size: 20px;
+    }
+    .box p{
+        line-height: 20px;
+    }
+    /* input  */
+    #input{
+        padding: 80px 0 70px;
+    }
+    #email{
+        padding: 12px 16px !important;
+    }
+    .c-btn{
+        height: 49.6px;
+    }
+    .i-icon{
+        padding-top: 40px;
+    }
+    .i-icon i{
+        margin-right: 30px;
+        font-size: 38px;
+    }
+    /* footer */
+    #footer{
+        padding-bottom: 50px;
+    }
+    .f-1{
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .f-2 p a, .f-2 p{
+        margin-bottom: 0;
+        text-align: center;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .b-text{
+        padding: 50px 0 30px;
+    }
+    .b-img{
+        margin: 30px 60px 0;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+    .b-text{
+        padding: 35px 0 30px;
+    }
+    .b-img{
+        margin: 3px 100px 0;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { ... }
